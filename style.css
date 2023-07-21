@@ -1,0 +1,142 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+  }
+  
+  header {
+    clip-path: polygon(100% 0, 100% 43%, 77% 52%, 0 44%, 0 0);
+    height: 1200px;
+    background-image:
+    linear-gradient(178.6deg, rgba(20, 36, 50, 0.7) 11.8%, rgba(124, 143, 161, 0.7) 83.8%),
+    url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y29kZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+ 
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    margin-top: 110px;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* color: black; */
+  }
+  
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #ddd;
+  }
+  
+
+/* Extra changes */
+
+.coding-img {
+  /* margin: 0 auto; */
+  text-align: center;
+  /* width: 500px; */
+}
+
+.img{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+
+  /* Section Styles */
+
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  li h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  li p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Footer Styles */
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
